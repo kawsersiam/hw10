@@ -1,0 +1,107 @@
+/* *COMMON CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center ;    
+}
+ .btn{
+    display: inline-block;
+    border: 2px solid #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    color: #cfc91d;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color:#cfc91d;
+    color: black;
+}
+/* *COMMON CSS END */
+
+/* *NAVBAR STARTS */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 25px 25px;
+    display: block;
+    transition: 0.5s;
+}
+nav .menu ul li:hover a{
+    background-color: #cfc91d;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+/* *NAVBAR ENDS */
+
+
+/* * BANNER STARTS HERE */
+#banner{
+   background-image: url(../Image/banner.jpg);
+    height: 608px;
+    background-size: cover;
+}
+#banner .container, #banner .row{
+    height: 100%;
+}
+#banner .banner_cnt{
+    text-align: center;
+    color: white;
+}
+#banner .banner_cnt h4{
+    font-size: 30px;
+}
+#banner .banner_cnt h1{
+    font-weight: 800;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+#banner .banner_cnt p{
+    font-size: 18px;
+}
+#banner .banner_cnt img{
+    margin: 50px 0;
+}
+/* * BANNER ENDS HERE */
